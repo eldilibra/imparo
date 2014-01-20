@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    int currentCharacterIndex;
+    NSMutableArray *names;
+    NSMutableArray *weaponry;
+}
+- (IBAction)didClick:(id)sender;
+- (IBAction)showWeapon:(id)sender;
 
+
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *weaponLabel;
+@property (weak, nonatomic) IBOutlet UIButton *nameBtn;
+@property (weak, nonatomic) IBOutlet UIButton *weaponBtn;
 @end

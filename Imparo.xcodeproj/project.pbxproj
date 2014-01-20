@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		712EE8B9188752F9004A0461 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 712EE8B8188752F9004A0461 /* Reachability.m */; };
+		7176E061188DDBB400A6C467 /* ImparoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E060188DDBB400A6C467 /* ImparoData.m */; };
 		71AD6E7D18848FEB001FB1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AD6E7C18848FEB001FB1C0 /* Foundation.framework */; };
 		71AD6E7F18848FEB001FB1C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AD6E7E18848FEB001FB1C0 /* CoreGraphics.framework */; };
 		71AD6E8118848FEB001FB1C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AD6E8018848FEB001FB1C0 /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		712EE8B7188752F9004A0461 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		712EE8B8188752F9004A0461 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7176E05F188DDBB400A6C467 /* ImparoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImparoData.h; sourceTree = "<group>"; };
+		7176E060188DDBB400A6C467 /* ImparoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImparoData.m; sourceTree = "<group>"; };
 		71AD6E7918848FEB001FB1C0 /* Imparo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imparo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AD6E7C18848FEB001FB1C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71AD6E7E18848FEB001FB1C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +120,8 @@
 		71AD6E8218848FEB001FB1C0 /* Imparo */ = {
 			isa = PBXGroup;
 			children = (
+				712EE8B7188752F9004A0461 /* Reachability.h */,
+				712EE8B8188752F9004A0461 /* Reachability.m */,
 				71AD6E8B18848FEB001FB1C0 /* AppDelegate.h */,
 				71AD6E8C18848FEB001FB1C0 /* AppDelegate.m */,
 				71AD6E8E18848FEB001FB1C0 /* Main_iPhone.storyboard */,
@@ -122,6 +130,8 @@
 				71AD6E9518848FEB001FB1C0 /* ViewController.m */,
 				71AD6E9718848FEB001FB1C0 /* Images.xcassets */,
 				71AD6E8318848FEB001FB1C0 /* Supporting Files */,
+				7176E05F188DDBB400A6C467 /* ImparoData.h */,
+				7176E060188DDBB400A6C467 /* ImparoData.m */,
 			);
 			path = Imparo;
 			sourceTree = "<group>";
@@ -255,6 +265,8 @@
 			files = (
 				71AD6E9618848FEB001FB1C0 /* ViewController.m in Sources */,
 				71AD6E8D18848FEB001FB1C0 /* AppDelegate.m in Sources */,
+				712EE8B9188752F9004A0461 /* Reachability.m in Sources */,
+				7176E061188DDBB400A6C467 /* ImparoData.m in Sources */,
 				71AD6E8918848FEB001FB1C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +486,7 @@
 				71AD6EB018848FEB001FB1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71AD6EB118848FEB001FB1C0 /* Build configuration list for PBXNativeTarget "ImparoTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +495,7 @@
 				71AD6EB318848FEB001FB1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
