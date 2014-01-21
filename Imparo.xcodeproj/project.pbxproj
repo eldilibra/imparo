@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		712EE8B9188752F9004A0461 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 712EE8B8188752F9004A0461 /* Reachability.m */; };
 		7176E061188DDBB400A6C467 /* ImparoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E060188DDBB400A6C467 /* ImparoData.m */; };
+		7176E064188DDEF500A6C467 /* NamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E063188DDEF500A6C467 /* NamesViewController.m */; };
+		7176E067188DDF1A00A6C467 /* WeaponsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E066188DDF1A00A6C467 /* WeaponsViewController.m */; };
 		71AD6E7D18848FEB001FB1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AD6E7C18848FEB001FB1C0 /* Foundation.framework */; };
 		71AD6E7F18848FEB001FB1C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AD6E7E18848FEB001FB1C0 /* CoreGraphics.framework */; };
 		71AD6E8118848FEB001FB1C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AD6E8018848FEB001FB1C0 /* UIKit.framework */; };
@@ -41,6 +43,10 @@
 		712EE8B8188752F9004A0461 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		7176E05F188DDBB400A6C467 /* ImparoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImparoData.h; sourceTree = "<group>"; };
 		7176E060188DDBB400A6C467 /* ImparoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImparoData.m; sourceTree = "<group>"; };
+		7176E062188DDEF500A6C467 /* NamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamesViewController.h; sourceTree = "<group>"; };
+		7176E063188DDEF500A6C467 /* NamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamesViewController.m; sourceTree = "<group>"; };
+		7176E065188DDF1A00A6C467 /* WeaponsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeaponsViewController.h; path = ../WeaponsViewController.h; sourceTree = "<group>"; };
+		7176E066188DDF1A00A6C467 /* WeaponsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeaponsViewController.m; path = ../WeaponsViewController.m; sourceTree = "<group>"; };
 		71AD6E7918848FEB001FB1C0 /* Imparo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imparo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AD6E7C18848FEB001FB1C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71AD6E7E18848FEB001FB1C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,7 +127,11 @@
 			isa = PBXGroup;
 			children = (
 				712EE8B7188752F9004A0461 /* Reachability.h */,
+				7176E065188DDF1A00A6C467 /* WeaponsViewController.h */,
+				7176E066188DDF1A00A6C467 /* WeaponsViewController.m */,
 				712EE8B8188752F9004A0461 /* Reachability.m */,
+				7176E062188DDEF500A6C467 /* NamesViewController.h */,
+				7176E063188DDEF500A6C467 /* NamesViewController.m */,
 				71AD6E8B18848FEB001FB1C0 /* AppDelegate.h */,
 				71AD6E8C18848FEB001FB1C0 /* AppDelegate.m */,
 				71AD6E8E18848FEB001FB1C0 /* Main_iPhone.storyboard */,
@@ -264,9 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				71AD6E9618848FEB001FB1C0 /* ViewController.m in Sources */,
+				7176E064188DDEF500A6C467 /* NamesViewController.m in Sources */,
 				71AD6E8D18848FEB001FB1C0 /* AppDelegate.m in Sources */,
 				712EE8B9188752F9004A0461 /* Reachability.m in Sources */,
 				7176E061188DDBB400A6C467 /* ImparoData.m in Sources */,
+				7176E067188DDF1A00A6C467 /* WeaponsViewController.m in Sources */,
 				71AD6E8918848FEB001FB1C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

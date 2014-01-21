@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController {
-    int currentCharacterIndex;
-    NSMutableArray *names;
-    NSMutableArray *weaponry;
-}
+@interface ViewController : UIViewController
+
 - (IBAction)didClick:(id)sender;
 - (IBAction)showWeapon:(id)sender;
 

@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ImparoData : NSObject
+@interface ImparoData : NSObject {
+    NSMutableDictionary *armsListing;
+}
+
+-(NSMutableDictionary *)ArmsListing;
++(ImparoData *) getSingleton;
 
 @end
