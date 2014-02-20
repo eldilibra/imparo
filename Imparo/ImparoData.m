@@ -31,7 +31,7 @@
 }
 
 -(NSMutableDictionary *) ArmsListing {
-    ;return armsListing;
+    return armsListing;
 }
 
 -(void) SetArmListing:(NSString *)name :(NSString *)weapoon {

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NamesViewController : UIViewController <UITableViewDataSource>
+@interface NamesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *namesTableView;
 

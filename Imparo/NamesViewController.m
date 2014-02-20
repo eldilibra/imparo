@@ -27,21 +27,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //self.namesTableView.delegate = self;
 	// Do any additional setup after loading the view.
+    self.namesTableView.delegate = self;
+    self.namesTableView.dataSource = self;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     UITableViewCell *cell = [[UITableViewCell alloc] init];
     [cell.textLabel setText: [[[ImparoData getSingleton] ArmsListing].allKeys objectAtIndex: indexPath.row]];
     return cell;
 }
 
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
     return 1;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
     return [[ImparoData getSingleton] ArmsListing].allKeys.count;
 }
 

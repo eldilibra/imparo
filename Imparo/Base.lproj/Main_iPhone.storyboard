@@ -109,10 +109,6 @@
                                 <rect key="frame" x="0.0" y="66" width="320" height="329"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="Mz4-e7-X0M" id="Aue-9f-JmN"/>
-                                    <outlet property="delegate" destination="Mz4-e7-X0M" id="Zk3-dr-gXR"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

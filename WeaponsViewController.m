@@ -28,6 +28,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.weaponsTableView.delegate = self;
+    self.weaponsTableView.dataSource = self;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *) indexPath
+{
+    UITableViewCell *cell = [[UITableViewCell alloc] init];
+    [cell.textLabel setText: [[[ImparoData getSingleton] ArmsListing].allValues objectAtIndex: indexPath.row]];
+    return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [[ImparoData getSingleton] ArmsListing].allKeys.count;
 }
 
 - (void)didReceiveMemoryWarning

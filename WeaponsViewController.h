@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WeaponsViewController : UIViewController
+@interface WeaponsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UITableView *weaponsTableView;
 
 @end
